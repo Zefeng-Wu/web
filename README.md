@@ -19,7 +19,23 @@
         (Django_symbiosisDB) wuzefeng@wuzefeng-Precision-5820-Tower:~/Documents/数据库/Django_symbiosisDB$ python3 manage.py startapp Download
         (Django_symbiosisDB) wuzefeng@wuzefeng-Precision-5820-Tower:~/Documents/数据库/Django_symbiosisDB$ python3 manage.py startapp Contact
         (Django_symbiosisDB) wuzefeng@wuzefeng-Precision-5820-Tower:~/Documents/数据库/Django_symbiosisDB$ python3 manage.py startapp Search   
-    3.
-    
+    3. 在主目录中注册app 打开左上侧项目文件夹；打开与项目名称一致的文件夹 打开其中的setting.py 如下
+        
+        INSTALLED_APPS = [
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+    "Home.apps.HomeConfig",
+    "Tools.apps.ToolsConfig",
+    "Genomes.apps.GenomesConfig",
+    "Expression.apps.ExpressionConfig",
+    "Network.apps.NetworkConfig",
+    "Download.apps.DownloadConfig",
+    "Contact.apps.ContactConfig",
+    "Search.apps.SearchConfig",
+]
 
 
