@@ -20,9 +20,10 @@
         (Django_symbiosisDB) wuzefeng@wuzefeng-Precision-5820-Tower:~/Documents/数据库/Django_symbiosisDB$ python3 manage.py startapp Contact
         (Django_symbiosisDB) wuzefeng@wuzefeng-Precision-5820-Tower:~/Documents/数据库/Django_symbiosisDB$ python3 manage.py startapp Search
         
-        简单解释一下这几个文件：
-　　     init.py:这是一个初始化的空文件，一般我们不需要动它。
-　　     settings.py: 这是一个配置文件，里面有关于语言、时区、安装的app声明等等信息；
+        
+        简单解释一下这几个文件:
+            init.py:这是一个初始化的空文件，一般我们不需要动它。
+　　         settings.py: 这是一个配置文件，里面有关于语言、时区、安装的app声明等等信息；
 　　     urls.py: 这个文件里指明了在访问一个页面时要调用的视图啊等的映射，确保在访问时可以正确定位到你要实现的功能；
 　　     wsgi.py: 这是一个关于web程序的wsgi的相关配置，我们暂时不需要修改它。
 　　     manage.py: 可以理解为他是django应用的控制中心，许多命令的实现，都需要他来调动。
